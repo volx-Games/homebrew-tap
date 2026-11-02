@@ -13,7 +13,7 @@ cask "room-service" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "RoomService.app", target: "Room Service.app"
   binary "#{appdir}/Room Service.app/Contents/MacOS/roomservice-cli", target: "roomservice"
