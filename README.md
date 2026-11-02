@@ -3,8 +3,8 @@
 [Room Service](https://roomservices.pro/) for macOS, the developer command center for projects, ports, cleanup and coding agents.
 
 ```bash
-brew trust --cask arda-personal/tap/room-service
-brew install --cask arda-personal/tap/room-service
+brew trust --cask volx-games/tap/room-service
+brew install --cask volx-games/tap/room-service
 ```
 
 Homebrew 7 and later load casks from taps outside Homebrew only after `brew trust`. On older versions, which have no `brew trust`, run only the second line.
