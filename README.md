@@ -7,7 +7,7 @@ brew trust --cask arda-personal/tap/room-service
 brew install --cask arda-personal/tap/room-service
 ```
 
-Homebrew 7 and later load casks from taps outside Homebrew only after `brew trust`; older versions skip the first line.
+Homebrew 7 and later load casks from taps outside Homebrew only after `brew trust`. On older versions, which have no `brew trust`, run only the second line.
 
 This installs `Room Service.app` and the `roomservice` command line tool. The app updates itself with Sparkle, so `brew upgrade` is not needed. Pro features are unlocked with a license in the app, as with the direct download.
 
