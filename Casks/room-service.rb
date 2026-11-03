@@ -1,6 +1,6 @@
 cask "room-service" do
-  version "3.4.0,122"
-  sha256 "26df0124625aa508f491650032ead4e64fc91a1bceb0cd4c997bd919c0a671e4"
+  version "3.5.0,123"
+  sha256 "a8bef86f8590559a14585282f39592d9385477dec39236aa7f0f3376af8f39d1"
 
   url "https://downloads.roomservices.pro/sparkle/RoomService-#{version.csv.first}-#{version.csv.second}.zip"
   name "Room Service"
